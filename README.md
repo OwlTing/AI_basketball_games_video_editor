@@ -41,6 +41,7 @@ git clone https://github.com/owlgeorgechen/AI_basketball_games_video_editor.git
 ```sh
 conda create --name py36_env python=3.6
 conda activate py36_env
+cd AI_basketball_games_video_editor
 ```
 
 ## 0.3 Requirements
