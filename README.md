@@ -57,7 +57,7 @@ More details for different different cuda version https://pytorch.org/get-starte
 Example:  
 conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch  
 
-Options (For tensorrt yolov4 object detector engine):  
+Optional (For tensorrt yolov4 object detector engine):  
 tensorrt 7.0.0  
 Please refer to the official documentation for installing tensorrt with different cuda version  
 https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html  
