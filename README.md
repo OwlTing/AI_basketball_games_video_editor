@@ -52,14 +52,14 @@ pandas
 tqdm  
 cv2  
 pytorch 1.3.0  
-(Please refer to the official documentation for installing pytorch https://pytorch.org/get-started/locally/  
+Please refer to the official documentation for installing pytorch https://pytorch.org/get-started/locally/  
 More details for different different cuda version https://pytorch.org/get-started/previous-versions/  
 Example:  
-conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch)  
+conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch  
 
 Options (For tensorrt yolov4 object detector engine):  
 tensorrt 7.0.0  
-(Please refer to the official documentation for installing tensorrt with different cuda version  
+Please refer to the official documentation for installing tensorrt with different cuda version  
 https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html  
 Example: (For Debian 10 cuda 10.0)  
 1. mkdir tensorrt  
@@ -78,7 +78,7 @@ sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvparsers.so.7 /usr/lib/ 
 sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer_plugin.so.7 /usr/lib/ ;  
 sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libmyelin.so.1 /usr/lib/  
 ```    
-8. pip install pycuda)  
+8. pip install pycuda  
 
 # 1. Weights Download
 
