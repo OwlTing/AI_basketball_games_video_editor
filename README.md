@@ -25,9 +25,9 @@ It can get shot frame index and cut video frame to merge highlight video.
 │   └── your_output_video_name.mp4   
 ```
 <p float="left">
-  <img src="https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/introduction.gif" width="267" height="225"/>
-  <img src="https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/introduction.jpg" width="267" height="225"/>
-  <img src="https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/gif_highlight.gif" width="267" height="225"/>
+  <img src="https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/introduction.gif" width="267" height="225"/>
+  <img src="https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/introduction.jpg" width="267" height="225"/>
+  <img src="https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/gif_highlight.gif" width="267" height="225"/>
 </p>
 
 # 0. Environments
@@ -133,10 +133,10 @@ python video_editor.py --video_path dataset/basketball_demo.mp4 --output_path re
   standard        show frame_information  
   clean           only cutting video
   ```
-![image](https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/output_mode_clean.jpg)
-![image](https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/output_mode_full.jpg)
-![image](https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/output_mode_basketball.jpg)
-![image](https://github.com/owlgeorgechen/AI_basketball_games_video_editor_app/blob/master/pic/output_mode_shot.jpg)
+![image](https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/output_mode_clean.jpg)
+![image](https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/output_mode_full.jpg)
+![image](https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/output_mode_basketball.jpg)
+![image](https://github.com/OwlTing/AI_basketball_games_video_editor/blob/master/pic/output_mode_shot.jpg)
 
 - You can refer the command-line options.
   ```
