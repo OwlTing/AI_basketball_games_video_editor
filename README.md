@@ -52,27 +52,30 @@ pandas
 tqdm  
 cv2  
 pytorch 1.3.0  (Please refer to the official documentation for installing pytorch https://pytorch.org/get-started/locally/  
-More details for different different cuda version https://pytorch.org/get-started/previous-versions/
-Example: 
+More details for different different cuda version https://pytorch.org/get-started/previous-versions/  
+Example:  
 conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch)  
 
 Options (For tensorrt yolov4 object detector engine):  
 tensorrt 7.0.0  (Please refer to the official documentation for installing tensorrt with different cuda version  
 https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html  
-Example: (For Debian 10 cuda 10.0)
-
+Example: (For Debian 10 cuda 10.0)  
 1. mkdir tensorrt  
-2. From https://developer.nvidia.com/tensorrt, to download TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz  
+2. From https://developer.nvidia.com/tensorrt, to download 
+   `TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz`  
    (select TensorRT 7.0) in the directory `tensorrt/`  
-3. tar xzvf TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz  
+3. tar xzvf `TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz`  
 4. export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/<path_your_tensorrt>/TensorRT-7.0.0.11/lib  
 5. cd TensorRT-7.0.0.11/python/  
 6. pip install tensorrt-7.0.0.11-cp36-none-linux_x86_64.whl  
-7. ```sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer.so.7 /usr/lib/ ;
-sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvonnxparser.so.7 /usr/lib/ ;
-sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvparsers.so.7 /usr/lib/ ;
-sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer_plugin.so.7 /usr/lib/ ;
-sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libmyelin.so.1 /usr/lib/ ```)    
+7. 
+```
+sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer.so.7 /usr/lib/ ;  
+sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvonnxparser.so.7 /usr/lib/ ;  
+sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvparsers.so.7 /usr/lib/ ;  
+sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer_plugin.so.7 /usr/lib/ ;  
+sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libmyelin.so.1 /usr/lib/  
+```    
 8. pip install pycuda  
 
 # 1. Weights Download
