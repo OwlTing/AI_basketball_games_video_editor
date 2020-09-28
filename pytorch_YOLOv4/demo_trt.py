@@ -1,5 +1,5 @@
 # Notice
-# To modify the source code:
+# To modify the source code for AI_basketball_games_video_editor project:
 # 1. Add class Yolov4TrtEngine for object detection
 
 import sys
