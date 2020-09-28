@@ -5,9 +5,9 @@
 ![](https://img.shields.io/static/v1?label=tensorrt&message=7.0.0&color=%3CCOLOR%3E)
 [![](https://img.shields.io/static/v1?label=license&message=Apache2&color=green)](./License.txt)
 
-AI Basketball Games Video Editor is a command-line program to get basketball highlight video by PyTorch YOLOv4 object  
-detection. Analyze basketball and basketball hoop locations collected from  object detection. It can get shot frame index  
-and cut video frame to merge highlight video.
+AI Basketball Games Video Editor is a command-line program to get basketball highlight video by PyTorch YOLOv4 object  detection.
+Analyze basketball and basketball hoop locations collected from  object detection.
+It can get shot frame index and cut video frame to merge highlight video.
 
 ```
 ├── README.md
