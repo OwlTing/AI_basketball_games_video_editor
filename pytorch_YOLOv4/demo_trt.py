@@ -1,3 +1,7 @@
+# Notice
+# To modify the source code:
+# 1. Add class Yolov4TrtEngine for object detection
+
 import sys
 import os
 import time

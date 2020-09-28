@@ -1,3 +1,7 @@
+# Notice
+# To modify the source code:
+# 1. Add class Yolov4DarknetEngine for object detection
+
 # -*- coding: utf-8 -*-
 '''
 @Time          : 20/04/25 15:49
