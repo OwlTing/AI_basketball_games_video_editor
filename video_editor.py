@@ -16,28 +16,28 @@ from tool.utils import read_config, save_log, read_log
 from tool.utils_basketball import catch_video_highlight_indexs
 
 
-draw_text_color = (0,0,255)
+draw_text_color = (0, 0, 255)
 thickness = 2
-drawColor = (255,255,255)
-boundColor = (0,255,255)
+drawColor = (255, 255, 255)
+boundColor = (0, 255, 255)
 
 def color_map(index):
     color = [
-        (205,79,57), #tomato3
-        (46,139,87), #SeaGreen
-        (106,90,205), #SlateBlue
-        (218,112,214), #Orchid
-        (139,137,137), #Snow4
-        (238,207,161), #NavajoWhite2
-        (0,100,0), #DarkGreen
-        (238,238,0), #Yellow2
-        (139,0,0), #DarkRed
-        (139,0,139), #DarkMagenta
-        (124,252,0), #LawnGreen
-        (100,149,237), #CornflowerBlue
-        (0,0,0), #Black
-        (20,0,238), #Blue2
-        (0,139,139) #DarkCyan
+        (205, 79, 57), #tomato3
+        (46, 139, 87), #SeaGreen
+        (106, 90, 205), #SlateBlue
+        (218, 112, 214), #Orchid
+        (139, 137, 137), #Snow4
+        (238, 207, 161), #NavajoWhite2
+        (0, 100, 0), #DarkGreen
+        (238, 238, 0), #Yellow2
+        (139, 0, 0), #DarkRed
+        (139, 0, 139), #DarkMagenta
+        (124, 252, 0), #LawnGreen
+        (100, 149, 237), #CornflowerBlue
+        (0, 0, 0), #Black
+        (20, 0, 238), #Blue2
+        (0, 139, 139) #DarkCyan
     ]
 
     return color[int(index)%15]
@@ -415,7 +415,8 @@ if __name__ == '__main__':
     parser.add_argument('--output_video_name', type=str, required=True, help='output video name')
     
     parser.add_argument(
-        '--highlight_flag', type=int, required=False, default=1, help='select 1 with auto-generated highlight or 0 without auto-generated highlight')
+        '--highlight_flag', type=int, required=False, default=1, 
+        help='select 1 with auto-generated highlight or 0 without auto-generated highlight')
     
     parser.add_argument(
         '--output_mode', type=str, required=False, default='shot', 
