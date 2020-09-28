@@ -67,7 +67,7 @@ Example: (For Debian 10 cuda 10.0)
 3. tar xzvf `TensorRT-7.0.0.11.Ubuntu-18.04.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz`  
 4. export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/<path_your_tensorrt>/TensorRT-7.0.0.11/lib  
 5. cd TensorRT-7.0.0.11/python/  
-6. pip install tensorrt-7.0.0.11-cp36-none-linux_x86_64.whl  
+6. pip install `tensorrt-7.0.0.11-cp36-none-linux_x86_64.whl`   
 7. 
 ```
 sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer.so.7 /usr/lib/ ;  
