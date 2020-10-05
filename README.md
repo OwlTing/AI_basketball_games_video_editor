@@ -53,7 +53,7 @@ tqdm
 cv2  
 pytorch 1.3.0  
 Please refer to the official documentation for installing pytorch https://pytorch.org/get-started/locally/  
-More details for different different cuda version https://pytorch.org/get-started/previous-versions/  
+More details for different cuda version https://pytorch.org/get-started/previous-versions/  
 Example:  
 conda install pytorch==1.3.0 torchvision==0.4.1 cudatoolkit=10.0 -c pytorch  
 
