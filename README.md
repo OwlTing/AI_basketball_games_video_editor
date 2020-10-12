@@ -115,6 +115,9 @@ python video_editor.py --video_path VIDEO_PATH --output_path OUTPUT_PATH --outpu
 
 # example
 python video_editor.py --video_path dataset/basketball_demo.mp4 --output_path result/demo --output_video_name out_demo.mp4
+
+# example for youtube video
+python video_editor_ytdl.py --dlurl https://www.youtube.com/watch?v=YyWFZlXFsxM --dlpath dataset/yt_demo/yt_demo.mp4 --output_path result/yt_demo --output_video_name out_yt_demo.mp4
 ```
 
 - It will generate `your_output_video_name.mp4 obj_log_name.data` in the directory `result/`
