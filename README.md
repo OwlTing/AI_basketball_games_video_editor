@@ -12,6 +12,7 @@ It can get shot frame index and cut video frame to merge highlight video.
 ```
 ├── README.md
 ├── video_editor.py                   demo to get basketball highlight video
+├── video_editor_ytdl.py              demo to get basketball highlight video from youtube video
 ├── pytorch_YOLOv4                    pytorch-YOLOv4 source code
 │   ├── weights                       need to download weights
 │   └── ...
@@ -79,6 +80,13 @@ sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libnvinfer_plugin.so.7 /usr/
 sudo cp /<path_your_tensorrt>/TensorRT-7.0.0.11/lib/libmyelin.so.1 /usr/lib/  
 ```    
 8. pip install pycuda  
+
+Optional (For download youtube video to get basketball highlight video):  
+youtube-dl  
+ffmpeg  
+Example: (For Debian 10)  
+1. pip install youtube-dl
+2. pip install ffmpeg
 
 # 1. Weights Download
 
@@ -192,6 +200,16 @@ python video_editor.py --video_path dataset/basketball_demo.mp4 --output_path re
                                                    select 1 to read log for different output video mode. (default: 0)
                                                                                                     
   --cut_frame CUT_FRAME                            cut frame range around shot frame index for highlight video (default: 50)  
+  ```
+
+- If you select `video_editor_ytdl.py` to download youtube video, please use `--dlurl` and `--dlpath` to replace `--video_path`
+  ```
+  optional arguments:
+  --dlurl DLURL                                    Youtube video url (default: None)
+  
+  --dlpath DLPATH                                  Youtube video save path (default: None)  
+  
+  ......(same with `video_editor.py` command-line options)                                                 
   ```
 
 Reference:
