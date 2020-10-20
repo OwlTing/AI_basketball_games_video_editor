@@ -35,7 +35,7 @@ It can get shot frame index and cut video frame to merge highlight video.
 
 ## 0.1 Get a copy
 ```sh
-git clone https://github.com/owlgeorgechen/AI_basketball_games_video_editor.git
+git clone https://github.com/OwlTing/AI_basketball_games_video_editor.git
 ```
 
 ## 0.2 Create virtual environments
