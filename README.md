@@ -107,6 +107,7 @@ python video_editor.py --video_path VIDEO_PATH --output_path OUTPUT_PATH --outpu
 
 # example
 python video_editor.py --video_path dataset/basketball_demo.mp4 --output_path result/demo --output_video_name out_demo.mp4
+```
 
 - It will generate `your_output_video_name.mp4 obj_log_name.data` in the directory `result/`
 
