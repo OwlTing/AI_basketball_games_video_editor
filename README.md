@@ -215,6 +215,4 @@ Reference:
 
 Contact:  
 Issues should be raised directly in the repository.  
-If you are very interested in this project, please feel free to contact me.  
-You also can email your basketball video youtube url (<= 5min) at george_chen@owlting.com.  
-I'll reply sample demo result, if I am free.  
+If you are very interested in this project, please feel free to contact me (george_chen@owlting.com).  
